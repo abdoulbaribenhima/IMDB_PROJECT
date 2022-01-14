@@ -1,0 +1,15 @@
+# Test Data-science (Python, Pandas, ) 
+
+Le but de ce test est d'évaluer vos connaissances Python, [Pandas](https://pandas.pydata.org/) et [Matplotlib](https://matplotlib.org/) la dernière question ouverte est orientée sur l'analyse des données.
+
+Dans un premier temps, décrire la façon dont l'environement de développement pour le test est mis en place.
+
+Le [jeu de données suivant](https://www.kaggle.com/PromptCloudHQ/imdb-data) contient une liste de films avec divers attributs.
+
+1. Calculer la moyenne des notes au global (colonne `rating`).
+2. Calculer la moyenne des notes par réalisateur (colonne `rating`). ainsi que le total au box-office (colonne `Revenue (Millions)`) en une instruction Pandas et sauvegarder le résultat en CSV.
+3. A l'aide [des données d'inflation de l'OCDE](https://data.oecd.org/price/inflation-cpi.htm) créer une nouvelle colonne incluant les revenus en dollars constant (la base 100 étant l'année du film le plus ancien dans le jeu de données) et sauvegarder le résultat en CSV.
+4. Créer un graphique avec la moyenne des notes (colonne `rating`) des films en ordonnée et leur année en abscisse et sauvegarder le résultat en JPEG.
+5. Déterminer les paramètres les plus impactants sur le score (colonne `rating`).
+
+En plus des résultats une attention particulière sera posée sur le code (style, structure, commentaires ...)
